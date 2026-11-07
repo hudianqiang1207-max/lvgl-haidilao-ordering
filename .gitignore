@@ -1,0 +1,20 @@
+# build outputs
+build_arm/
+haidilao_app
+*.o
+*.d
+*.a
+__pycache__/
+
+# third-party / temp
+freetype_tmp/
+lvgl/
+*.zip
+*.mp4
+
+# IDE / system
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.uvguix.*

@@ -1,0 +1,41 @@
+# 海底捞点餐系统 Makefile (SDL模式)
+
+CC = gcc
+CFLAGS = -Wall -O2 -I. -I./mycode -I./lvgl -I./ui \
+         -DLV_CONF_INCLUDE_SIMPLE \
+         -DLV_USE_FREETYPE=1 -I/usr/include/freetype2 \
+         $(shell sdl2-config --cflags)
+LDFLAGS = -lpthread -lm $(shell sdl2-config --libs)
+
+# 源文件
+SRCS = main_haidilao.c \
+       ./ui/ui.c ./ui/ui_helpers.c ./ui/ui_events.c \
+       ./ui/menu_data.c \
+       ./ui/screens/ui_OrderScreen.c \
+       ./ui/screens/ui_CheckoutScreen.c \
+       ./ui/screens/ui_PaymentScreen.c \
+       ./ui/components/ui_comp_hook.c \
+       ./ui/images/ui_img_beef.c ./ui/images/ui_img_noodle.c \
+       ./ui/images/ui_img_shrimp.c ./ui/images/ui_img_vegetables.c \
+       $(wildcard ./ui/images/real/ui_img_real_*.c) \
+       ./mycode/display_init.c ./mycode/font_setup.c ./mycode/net_client.c
+
+OBJS = $(SRCS:.c=.o)
+TARGET = haidilao_app
+
+# LVGL源文件（排除rlottie）
+LVGL_SRCS = $(shell find ./lvgl/src -name "*.c" | grep -v rlottie)
+LVGL_OBJS = $(LVGL_SRCS:.c=.o)
+
+all: $(TARGET)
+
+$(TARGET): $(OBJS) $(LVGL_OBJS)
+	$(CC) $(CFLAGS) -o $@ $^ $(LDFLAGS) -lfreetype
+
+%.o: %.c
+	$(CC) $(CFLAGS) -c $< -o $@
+
+clean:
+	rm -f $(OBJS) $(LVGL_OBJS) $(TARGET)
+
+.PHONY: all clean

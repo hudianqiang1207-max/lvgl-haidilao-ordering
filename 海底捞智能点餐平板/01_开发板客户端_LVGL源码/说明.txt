@@ -1,0 +1,1 @@
+﻿这里是 GEC6818 开发板客户端和 LVGL 界面源码。ui 是 LVGL 页面，mycode 是显示、字体和 TCP 网络代码。Make_arm 用于 ARM 编译。

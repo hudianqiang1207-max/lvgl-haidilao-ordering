@@ -1,0 +1,612 @@
+[
+  {
+    "id": 368,
+    "name": "海底捞新一代番茄火锅",
+    "tag": "一定要喝汤的番茄火锅",
+    "desc": "选用新品种的熟成沙瓤番茄，皮薄肉厚，番茄口感更绵密，汁水充盈，酸甜味更佳，锅底中番茄添加量",
+    "url": "https://website.hdlcdns.com/website/image/1bfe5f9193974265a9eddf2547ca48a7-396-543.jpg",
+    "category_code": "003001",
+    "ext": "jpg",
+    "file": "00.jpg"
+  },
+  {
+    "id": 3307,
+    "name": "经典麻辣火锅",
+    "tag": "慢火熬煮4小时的经典麻辣锅底",
+    "desc": "选用精选牛油与青花椒和红花椒、及多种辣椒慢火熬煮而成。锅底油色红亮、汤味醇厚，越煮越香不变",
+    "url": "https://website.hdlcdns.com/website/image/9320ca81042c4bc2a408782e3c4518c7-396-543.jpg",
+    "category_code": "003001",
+    "ext": "jpg",
+    "file": "01.jpg"
+  },
+  {
+    "id": 3493,
+    "name": "清油麻辣火锅",
+    "tag": "植物油炒制，香辣浓郁不油腻",
+    "desc": "严选花椒、辣椒、香辛料原料，地道川味火锅；传统工艺发酵豆瓣；汤底色泽鲜红，口味香辣浓郁；推",
+    "url": "https://website.hdlcdns.com/website/image/cfe3ba0f942f487f8569c34a6de8840d-396-543.jpg",
+    "category_code": "003001",
+    "ext": "jpg",
+    "file": "02.jpg"
+  },
+  {
+    "id": 3494,
+    "name": "三鲜火锅",
+    "tag": "色泽纯正，口感鲜香浓郁",
+    "desc": "选用现代工艺萃取的肉类浓缩骨汤为汤底；可根据喜好搭配不同的特色味碟、推荐搭配涮食海鲜类及素",
+    "url": "https://website.hdlcdns.com/website/image/f1bfd777304943c19e0cdb4781c65ef1-396-543.jpg",
+    "category_code": "003001",
+    "ext": "jpg",
+    "file": "03.jpg"
+  },
+  {
+    "id": 3495,
+    "name": "岭南黄猪肚鸡火锅",
+    "tag": "汤头乳白、鲜香浓郁",
+    "desc": "精选猪肚、三黄鸡、经慢火熬制的风味猪肚汤料包，鲜香浓郁、椒香扑鼻；推荐搭配涮素食食材。",
+    "url": "https://website.hdlcdns.com/website/image/f3fcfbc8126540b48f9881380dd009a8-396-543.jpg",
+    "category_code": "003001",
+    "ext": "jpg",
+    "file": "04.jpg"
+  },
+  {
+    "id": 7634,
+    "name": "浓浓浓菌汤锅",
+    "tag": "研发300天，菌汤超级鲜!",
+    "desc": "研发300天，菌汤超级鲜!\n*本品添加蛹虫草或虫草花，虫草花是人工培养的蛹虫草子实体，是一",
+    "url": "https://website.hdlcdns.com/website/image/59e8b93dec0542e7912b38a8df7b2ca1-396-543.jpg",
+    "category_code": "003001",
+    "ext": "jpg",
+    "file": "05.jpg"
+  },
+  {
+    "id": 7676,
+    "name": "真香锅",
+    "tag": "汤底鲜香，麻辣适中，油脂香味突出， 味道清爽不油腻。",
+    "desc": "采用植物油和少量牛油混合，并添加多种香辛料、辣椒、花椒混合炒制，汤底鲜香、麻辣适中、油脂香",
+    "url": "https://website.hdlcdns.com/website/image/06393a8f96ce41efa1a90b6a18f2a140-396-543.jpg",
+    "category_code": "003001",
+    "ext": "jpg",
+    "file": "06.jpg"
+  },
+  {
+    "id": 8498,
+    "name": "莓莓抹茶牛乳",
+    "tag": "",
+    "desc": "浓郁的抹茶融入牛奶的丝滑，搭配着草莓果酱的酸甜，每一口都有惊喜。",
+    "url": "https://website.hdlcdns.com/website/image/e6fe154c36df451395dc826c923e95b5-396-543.jpg",
+    "category_code": "003002001",
+    "ext": "jpg",
+    "file": "07.jpg"
+  },
+  {
+    "id": 8501,
+    "name": "雪花肩胛小排",
+    "tag": "",
+    "desc": "取自牛肋骨第3-5根之间，肉香味足，入锅一涮，不用蘸料都好吃。",
+    "url": "https://website.hdlcdns.com/website/image/bacc69c34e514455a47c51aa37aaf81f-396-543.jpg",
+    "category_code": "003002001",
+    "ext": "jpg",
+    "file": "08.jpg"
+  },
+  {
+    "id": 8674,
+    "name": "内蒙罕山白绒山羊",
+    "tag": "",
+    "desc": "赤峰羊肉，地理标志产品! \n地理标志产品指羊肉原料。",
+    "url": "https://website.hdlcdns.com/website/image/f08b7431e97c48c3b69e7fb9f9fb4945-396-543.jpg",
+    "category_code": "003002001",
+    "ext": "jpg",
+    "file": "09.jpg"
+  },
+  {
+    "id": 8675,
+    "name": "虫草花乌鸡丸",
+    "tag": "",
+    "desc": "乌鸡虫草花，营养高蛋白！\n*本产品肉类还含有猪肉。虫草花是一种食用菌，是人工培养的蛹虫草子",
+    "url": "https://website.hdlcdns.com/website/image/580ffafde836444fa376151f43e41917-396-543.jpg",
+    "category_code": "003002001",
+    "ext": "jpg",
+    "file": "10.jpg"
+  },
+  {
+    "id": 8676,
+    "name": "雪人豆乳蛋糕",
+    "tag": "",
+    "desc": "有颜有料，双重口感满足！",
+    "url": "https://website.hdlcdns.com/website/image/5045629de3714657868a7eb13cc6a4fe-396-543.jpg",
+    "category_code": "003002001",
+    "ext": "jpg",
+    "file": "11.jpg"
+  },
+  {
+    "id": 8677,
+    "name": "\t 虾滑鱼籽三明治",
+    "tag": "",
+    "desc": "三层口感三层鲜，六种蛋白在里面！",
+    "url": "https://website.hdlcdns.com/website/image/08d8baac636a4d7682e37b6d6db7d52e-396-543.jpg",
+    "category_code": "003002001",
+    "ext": "jpg",
+    "file": "12.jpg"
+  },
+  {
+    "id": 8678,
+    "name": "黑松露鱼籽牛肉饭",
+    "tag": "",
+    "desc": "鱼籽松露香，一口香迷糊！",
+    "url": "https://website.hdlcdns.com/website/image/69173e4eb8c84447b0189ac989049244-396-543.jpg",
+    "category_code": "003002001",
+    "ext": "jpg",
+    "file": "13.jpg"
+  },
+  {
+    "id": 428,
+    "name": "捞派捞面",
+    "tag": "",
+    "desc": "海底捞明星产品，使用国内优质的小麦高筋面粉，坚持传统酵母发酵工艺。由捞面师现场为您舞面，让",
+    "url": "https://website.hdlcdns.com/website/image/6833f869049d4216ad404a754bdf5c2c-396-543.jpg",
+    "category_code": "003002002",
+    "ext": "jpg",
+    "file": "14.jpg"
+  },
+  {
+    "id": 3510,
+    "name": "捞派脆脆毛肚",
+    "tag": "",
+    "desc": "毛肚即牛胃，别名：百叶肚、肚尖、牛胃、毛肚，是牛的内脏之一，即牛胃部中的第三个胃（瓣胃），",
+    "url": "https://website.hdlcdns.com/website/image/42b1e9067e61473993baf073f9da137f-396-543.jpg",
+    "category_code": "003002002",
+    "ext": "jpg",
+    "file": "15.jpg"
+  },
+  {
+    "id": 8267,
+    "name": "捞派鸭肠",
+    "tag": "",
+    "desc": "每一根都口感爽脆有韧性",
+    "url": "https://website.hdlcdns.com/website/image/ccf399c966824668b7ed8ad7a8853c56-396-543.jpg",
+    "category_code": "003002002",
+    "ext": "jpg",
+    "file": "16.jpg"
+  },
+  {
+    "id": 8268,
+    "name": "捞派豆花",
+    "tag": "",
+    "desc": "采用优选大豆磨浆，经传统手工工艺压制而成。搭配豆花蘸碟，口味更突出。",
+    "url": "https://website.hdlcdns.com/website/image/f9e93c713854449ca576c1be47bcb024-396-543.jpg",
+    "category_code": "003002002",
+    "ext": "jpg",
+    "file": "17.jpg"
+  },
+  {
+    "id": 8269,
+    "name": "捞派麻辣滑牛肉",
+    "tag": "",
+    "desc": "精选牛肉的小米龙部位，形状像黄瓜，俗称：黄瓜条。每份滑牛都要经过解冻、去筋膜、分割、切片、",
+    "url": "https://website.hdlcdns.com/website/image/4bedd90fcce941e58f9b4792c99903f0-396-543.jpg",
+    "category_code": "003002002",
+    "ext": "jpg",
+    "file": "18.jpg"
+  },
+  {
+    "id": 8270,
+    "name": "招牌大颗粒虾滑",
+    "tag": "",
+    "desc": "从原料虾仁到成品虾滑，经过低温快速生产，锁住虾的鲜甜，有效防止蛋白流失，虾肉含量高达93%",
+    "url": "https://website.hdlcdns.com/website/image/6570d975bc34436aa0f7e56e0c60cf71-396-543.jpg",
+    "category_code": "003002002",
+    "ext": "jpg",
+    "file": "19.jpg"
+  },
+  {
+    "id": 8271,
+    "name": "捞派嫩羊肉",
+    "tag": "",
+    "desc": "选用优质羊后腿肉加工而成，口感嫩滑。",
+    "url": "https://website.hdlcdns.com/website/image/0d7a4f52aef541a4a78dfd993d79c39c-396-543.jpg",
+    "category_code": "003002002",
+    "ext": "jpg",
+    "file": "20.jpg"
+  },
+  {
+    "id": 8272,
+    "name": "捞派黄喉",
+    "tag": "",
+    "desc": "精选猪黄喉，通过去筋膜、分割、清水浸泡等工艺环节加工，自然去除黄喉的血水和腥味，口感脆嫩弹",
+    "url": "https://website.hdlcdns.com/website/image/93f1dd21ffc34c928339542bb29f99bd-396-543.jpg",
+    "category_code": "003002002",
+    "ext": "jpg",
+    "file": "21.jpg"
+  },
+  {
+    "id": 8273,
+    "name": "捞派巴沙鱼片",
+    "tag": "",
+    "desc": "精选越南湄公河流域养殖的巴沙鱼，口味鲜嫩，且少刺，特别适合老人、小孩食用。",
+    "url": "https://website.hdlcdns.com/website/image/b3f59b6aff664a1fa1171f4d9c1e48b9-396-543.jpg",
+    "category_code": "003002002",
+    "ext": "jpg",
+    "file": "22.jpg"
+  },
+  {
+    "id": 8679,
+    "name": "8秒海带苗",
+    "tag": "",
+    "desc": "\n8秒涮烫，一口脆爽",
+    "url": "https://website.hdlcdns.com/website/image/b82bf55315e84270a9ad73c258f9d2d9-396-543.jpg",
+    "category_code": "003002002",
+    "ext": "jpg",
+    "file": "23.jpg"
+  },
+  {
+    "id": 8306,
+    "name": "捞派肥牛",
+    "tag": "",
+    "desc": "原料选用进口谷饲牛肉，经过缓化、修整、切片等复杂工艺精心加工而成，肉质细腻、肥瘦相间，香而",
+    "url": "https://website.hdlcdns.com/website/image/3dae0fc361c9447ba3161bb6a48a2d41-396-543.jpg",
+    "category_code": "003002003",
+    "ext": "jpg",
+    "file": "24.jpg"
+  },
+  {
+    "id": 8307,
+    "name": "精品腹肉肥牛",
+    "tag": "",
+    "desc": "肥瘦相间，口感醇厚，香味十足。",
+    "url": "https://website.hdlcdns.com/website/image/389299b0a81f4c0387b9d6ef738c5921-396-543.jpg",
+    "category_code": "003002003",
+    "ext": "jpg",
+    "file": "25.jpg"
+  },
+  {
+    "id": 8308,
+    "name": "精选牛板腱",
+    "tag": "",
+    "desc": "雪花丰富，肉香浓郁。",
+    "url": "https://website.hdlcdns.com/website/image/f1f29ed7b812485e9325f7cae657dcec-396-543.jpg",
+    "category_code": "003002003",
+    "ext": "jpg",
+    "file": "26.jpg"
+  },
+  {
+    "id": 8309,
+    "name": "新西兰羔羊羊排卷",
+    "tag": "",
+    "desc": "选用10个月左右的小羔羊，取自羔羊羊排部位，名不虚传的“肉中贵族”，肉质肥瘦相间、肥而不腻",
+    "url": "https://website.hdlcdns.com/website/image/f5a9e0d4682b4be986f9c4f22ed6e756-396-543.jpg",
+    "category_code": "003002003",
+    "ext": "jpg",
+    "file": "27.jpg"
+  },
+  {
+    "id": 8310,
+    "name": "内蒙特色沙葱羊肉卷",
+    "tag": "",
+    "desc": "选用8个月左右大的草原羔羊肉，结合沙葱的清香，平衡了羊肉的膻味，全新升级味道更佳！",
+    "url": "https://website.hdlcdns.com/website/image/53c40e9239b7465f9c7a9120f5649188-396-543.jpg",
+    "category_code": "003002003",
+    "ext": "jpg",
+    "file": "28.jpg"
+  },
+  {
+    "id": 8311,
+    "name": "精品肥羊1号",
+    "tag": "",
+    "desc": "精选10个月左右的小羊羔，取自羔羊前肩部位肉，精细修割，肥瘦搭配，自然花纹，肉香十足。",
+    "url": "https://website.hdlcdns.com/website/image/83b71398476a4ab9957e656a9ed5783d-396-543.jpg",
+    "category_code": "003002003",
+    "ext": "jpg",
+    "file": "29.jpg"
+  },
+  {
+    "id": 8312,
+    "name": "层层雪浪猪五花",
+    "tag": "",
+    "desc": "肥瘦相间、香而不腻",
+    "url": "https://website.hdlcdns.com/website/image/b8992465af7e4420bdd60e5433f59f3c-396-543.jpg",
+    "category_code": "003002003",
+    "ext": "jpg",
+    "file": "30.jpg"
+  },
+  {
+    "id": 8313,
+    "name": "火锅牛排",
+    "tag": "",
+    "desc": "火锅牛排原料选用牛肩胛中心较嫩的部位肉－牛板腱（也称牛牡蛎肉），每头牛仅有约3公斤。板腱肉",
+    "url": "https://website.hdlcdns.com/website/image/bfed451459e8457e9d83a66b236783fa-396-543.jpg",
+    "category_code": "003002003",
+    "ext": "jpg",
+    "file": "31.jpg"
+  },
+  {
+    "id": 8314,
+    "name": "我的小郡肝",
+    "tag": "",
+    "desc": "鸡胗切花后料理成咸鲜麻辣风味，口感爽脆，搭配海椒干碟蘸着吃更能突出小郡肝的风味特点。",
+    "url": "https://website.hdlcdns.com/website/image/7d98bc639e4c42b7a78e507ae04e4fc5-396-543.jpg",
+    "category_code": "003002003",
+    "ext": "jpg",
+    "file": "32.jpg"
+  },
+  {
+    "id": 8315,
+    "name": "鲜切羊肉",
+    "tag": "",
+    "desc": "冷鲜腿肉，瘦而不硬，口感鲜嫩香。",
+    "url": "https://website.hdlcdns.com/website/image/ca538ff527804f0b8bd093e3e4670a31-396-543.jpg",
+    "category_code": "003002003",
+    "ext": "jpg",
+    "file": "33.jpg"
+  },
+  {
+    "id": 8316,
+    "name": "脱骨鸭掌",
+    "tag": "",
+    "desc": "优选鸭掌，鸭掌剔硬骨、保留鸭掌完整性、搭配麻辣锅底更能体现鸭掌风味及劲道口感。",
+    "url": "https://website.hdlcdns.com/website/image/17b0c5ac69314656b2a1ce57bc4aa9f4-396-543.jpg",
+    "category_code": "003002003",
+    "ext": "jpg",
+    "file": "34.jpg"
+  },
+  {
+    "id": 8317,
+    "name": "猪脑花",
+    "tag": "",
+    "desc": "精选优质猪脑，清洗加工后上桌，适宜搭配麻辣锅底，烫煮后口感细腻。",
+    "url": "https://website.hdlcdns.com/website/image/0acaeeac152a4315a2f82756f86a6bb4-396-543.jpg",
+    "category_code": "003002003",
+    "ext": "jpg",
+    "file": "35.jpg"
+  },
+  {
+    "id": 8318,
+    "name": "鸭舌",
+    "tag": "",
+    "desc": "选用优质鸭舌、肉嫩鲜美、鸭舌舌尖部份口感更加细嫩。",
+    "url": "https://website.hdlcdns.com/website/image/2ce8c9d650d24f4ca176dc344c413cb0-396-543.jpg",
+    "category_code": "003002003",
+    "ext": "jpg",
+    "file": "36.jpg"
+  },
+  {
+    "id": 8319,
+    "name": "脆皮肠",
+    "tag": "",
+    "desc": "选用优质鸡肉为主要原料，口感爽脆，肉质香嫩，烟熏味浓郁。",
+    "url": "https://website.hdlcdns.com/website/image/691a44aa5d3a405cab51548ed8373ca3-396-543.jpg",
+    "category_code": "003002003",
+    "ext": "jpg",
+    "file": "37.jpg"
+  },
+  {
+    "id": 8320,
+    "name": "午餐肉",
+    "tag": "",
+    "desc": "精心甄选猪后腿肉制造，运用自动高温高压灭菌设备熟化，产品安全卫生，具有肉香味浓郁、肉质鲜嫩",
+    "url": "https://website.hdlcdns.com/website/image/1725acb87cfc4890b689b3bcf57a483c-396-543.jpg",
+    "category_code": "003002003",
+    "ext": "jpg",
+    "file": "38.jpg"
+  },
+  {
+    "id": 8499,
+    "name": "精选安格斯牛板腱",
+    "tag": "",
+    "desc": "精选牛板腱，瘦肉多、脂肪少，每一片都是连筋带肉，吃起来既有嚼劲，又肉嫩多汁。",
+    "url": "https://website.hdlcdns.com/website/image/41021a3f6a374971adc73b79408a8926-396-543.jpg",
+    "category_code": "003002003",
+    "ext": "jpg",
+    "file": "39.jpg"
+  },
+  {
+    "id": 8502,
+    "name": "臻选安格斯牛板腱",
+    "tag": "",
+    "desc": "只用安格斯牛，瘦肉多、脂肪少，每一片都是连筋带肉，吃起来既有嚼劲，又肉嫩多汁。",
+    "url": "https://website.hdlcdns.com/website/image/ef815f8abca44226b05c6bceafb86c92-396-543.jpg",
+    "category_code": "003002003",
+    "ext": "jpg",
+    "file": "40.jpg"
+  },
+  {
+    "id": 8503,
+    "name": "经典连筋带肉牛板腱",
+    "tag": "",
+    "desc": "板腱取自牛肩胛部位，瘦肉多、脂肪少，每一片都是连筋带肉，吃起来既有嚼劲，又肉嫩多汁。",
+    "url": "https://website.hdlcdns.com/website/image/cf642b6bf482472893e1f6146657ad9e-396-543.jpg",
+    "category_code": "003002003",
+    "ext": "jpg",
+    "file": "41.jpg"
+  },
+  {
+    "id": 8504,
+    "name": "川式香辣滑牛肉",
+    "tag": "",
+    "desc": "腌制过的牛肉口感更嫩，均匀地裹满辣椒面，吃着又香又辣！",
+    "url": "https://website.hdlcdns.com/website/image/0c94966c39d649ad93d7a6d9e58803c8-396-543.jpg",
+    "category_code": "003002003",
+    "ext": "jpg",
+    "file": "42.jpg"
+  },
+  {
+    "id": 456,
+    "name": "特色蘸料",
+    "tag": "",
+    "desc": "锅底百搭",
+    "url": "https://hdl-globalportal-oss-bucket.oss-cn-beijing.aliyuncs.com/website/image/3245d784e99f4bbf9da8db3fb5052163-523-543.png",
+    "category_code": "003003",
+    "ext": "png",
+    "file": "43.png"
+  },
+  {
+    "id": 3325,
+    "name": "鲜香味碟",
+    "tag": "",
+    "desc": "提鲜必备",
+    "url": "https://hdl-globalportal-oss-bucket.oss-cn-beijing.aliyuncs.com/website/image/10053c392da7495d91af0d287e16fb1b-523-543.png",
+    "category_code": "003003",
+    "ext": "png",
+    "file": "44.png"
+  },
+  {
+    "id": 3594,
+    "name": "香辣味碟",
+    "tag": "",
+    "desc": "川渝搭档",
+    "url": "https://hdl-globalportal-oss-bucket.oss-cn-beijing.aliyuncs.com/website/image/26569279a2244f909914efa361c7b3d0-523-543.png",
+    "category_code": "003003",
+    "ext": "png",
+    "file": "45.png"
+  },
+  {
+    "id": 3595,
+    "name": "海鲜味碟",
+    "tag": "",
+    "desc": "海鲜专属",
+    "url": "https://hdl-globalportal-oss-bucket.oss-cn-beijing.aliyuncs.com/website/image/3e61fb1a7d7f4735bea5e2b093ecb778-523-543.png",
+    "category_code": "003003",
+    "ext": "png",
+    "file": "46.png"
+  },
+  {
+    "id": 3596,
+    "name": "丸滑味碟",
+    "tag": "",
+    "desc": "丸滑必备",
+    "url": "https://website.hdlcdns.com/website/image/f1387fea632c417d89551ad97fab2b41-523-543.png",
+    "category_code": "003003",
+    "ext": "png",
+    "file": "47.png"
+  },
+  {
+    "id": 3597,
+    "name": "酸辣味碟",
+    "tag": "",
+    "desc": "酸辣开胃",
+    "url": "https://hdl-globalportal-oss-bucket.oss-cn-beijing.aliyuncs.com/website/image/a76c620af6a84e0091a36fd11e3fa513-523-543.png",
+    "category_code": "003003",
+    "ext": "png",
+    "file": "48.png"
+  },
+  {
+    "id": 3598,
+    "name": "蒜泥香油碟",
+    "tag": "",
+    "desc": "川式口味",
+    "url": "https://hdl-globalportal-oss-bucket.oss-cn-beijing.aliyuncs.com/website/image/5bc97a0b65214482a8329f504c133392-523-543.png",
+    "category_code": "003003",
+    "ext": "png",
+    "file": "49.png"
+  },
+  {
+    "id": 3599,
+    "name": "芝麻调味酱",
+    "tag": "",
+    "desc": "老北京口味",
+    "url": "https://hdl-globalportal-oss-bucket.oss-cn-beijing.aliyuncs.com/website/image/1a6322e3ea98448fa932a51ec445f27a-523-543.png",
+    "category_code": "003003",
+    "ext": "png",
+    "file": "50.png"
+  },
+  {
+    "id": 130,
+    "name": "现炸酥肉",
+    "tag": "33",
+    "desc": "选用上等猪肉原料，酥脆可口，椒香口味给您不一样的体验！配上干辣椒碟或者番茄酱食用，风味独特",
+    "url": "https://website.hdlcdns.com/website/image/66df1bd3102c461c8b40f94b01d05e66-396-543.jpg",
+    "category_code": "003004",
+    "ext": "jpg",
+    "file": "51.jpg"
+  },
+  {
+    "id": 3604,
+    "name": "茴香小油条",
+    "tag": "",
+    "desc": "配以鲜茴香和茴香籽，口感松软，茴香味回味悠长，趁热吃外皮酥脆口感更佳。",
+    "url": "https://website.hdlcdns.com/website/image/9df1f71ab5a048eba0cc040ca187f28d-396-543.jpg",
+    "category_code": "003004",
+    "ext": "jpg",
+    "file": "52.jpg"
+  },
+  {
+    "id": 3608,
+    "name": "五常米饭",
+    "tag": "",
+    "desc": "米香浓郁，软糯可口",
+    "url": "https://website.hdlcdns.com/website/image/b6e53c45f24841b695982437c001eee1-396-543.jpg",
+    "category_code": "003004",
+    "ext": "jpg",
+    "file": "53.jpg"
+  },
+  {
+    "id": 8321,
+    "name": "一口爆浆奶酪鱼条",
+    "tag": "",
+    "desc": "外酥里嫩 奶酪味十足。",
+    "url": "https://website.hdlcdns.com/website/image/0f1a57e390ac4b8da207090f6630d1e4-396-543.jpg",
+    "category_code": "003004",
+    "ext": "jpg",
+    "file": "54.jpg"
+  },
+  {
+    "id": 8322,
+    "name": "酥酥嫩嫩炸牛奶",
+    "tag": "",
+    "desc": "口感酥脆，老少皆宜",
+    "url": "https://website.hdlcdns.com/website/image/c112fc4d2e6944509220b74ee30b566c-396-543.jpg",
+    "category_code": "003004",
+    "ext": "jpg",
+    "file": "55.jpg"
+  },
+  {
+    "id": 8525,
+    "name": "你龙我龙慕斯（白桃味）",
+    "tag": "",
+    "desc": "清甜可口，桃香四溢",
+    "url": "https://website.hdlcdns.com/website/image/c6ba24f7150b4f60b4a87b5a0b06fd88-396-543.jpg",
+    "category_code": "003004",
+    "ext": "jpg",
+    "file": "56.jpg"
+  },
+  {
+    "id": 8526,
+    "name": "喜乐龙龙慕斯(蜜瓜味)",
+    "tag": "",
+    "desc": "密瓜味清新爽口、口感细腻",
+    "url": "https://website.hdlcdns.com/website/image/b32da2808acb4bfaa2538acb6fba2860-396-543.jpg",
+    "category_code": "003004",
+    "ext": "jpg",
+    "file": "57.jpg"
+  },
+  {
+    "id": 40,
+    "name": "海底捞大麦拉格啤酒",
+    "tag": "33",
+    "desc": "荣获2021年CBC中国国际啤酒挑战赛天禄奖一星。甄选进口大麦芽及啤酒花，烘焙麦芽带来琥珀",
+    "url": "https://hdl-globalportal-oss-bucket.oss-cn-beijing.aliyuncs.com/website/image/6825b47a46624fa487f6e86fa27bebb4-396-543.jpg",
+    "category_code": "003005",
+    "ext": "jpg",
+    "file": "58.jpg"
+  },
+  {
+    "id": 3618,
+    "name": "海底捞德式小麦啤酒",
+    "tag": "",
+    "desc": "荣获2021年CCBA中国精酿啤酒大奖银奖。馥郁的果香结合酵母发酵带来的香气。洁白细腻的泡",
+    "url": "https://hdl-globalportal-oss-bucket.oss-cn-beijing.aliyuncs.com/website/image/7a40ca7d8f89412ba2f9e133107883cd-396-543.jpg",
+    "category_code": "003005",
+    "ext": "jpg",
+    "file": "59.jpg"
+  },
+  {
+    "id": 3762,
+    "name": "海底捞淡爽拉格拉格啤酒",
+    "tag": "",
+    "desc": "荣获2020年CCBA中国精酿啤酒大奖拉格&混合啤酒经典组铜奖。\n本款酒体金黄的拉格啤酒，",
+    "url": "https://hdl-globalportal-oss-bucket.oss-cn-beijing.aliyuncs.com/website/image/b8bc628a5b6445a0b4e2232442bcac95-396-543.jpg",
+    "category_code": "003005",
+    "ext": "jpg",
+    "file": "60.jpg"
+  }
+]

@@ -1,0 +1,11 @@
+﻿这里仅放云服务器端源码：
+
+- haidi_server.c：唯一需要编译和上传到云服务器的文件。
+- 管理台 HTML/CSS/JavaScript 已内嵌在 haidi_server.c 的 admin_html 字符串中，不需要单独的 HTML 文件。
+- 管理台使用说明.md：说明文档，不参与编译。
+
+云服务器编译：
+  gcc -Wall -O2 -o haidi_server haidi_server.c -lpthread
+  ./haidi_server 8888
+
+8888 是开发板 TCP 服务，8889 是 Web 管理台。

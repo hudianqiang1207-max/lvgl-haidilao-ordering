@@ -1,0 +1,50 @@
+# 海底捞点餐系统 Makefile (ARM 开发板 GEC6818)
+# 用法: make -f Make_arm -j4  ;  make -f Make_arm send
+
+CC = /usr/local/arm/5.4.0/usr/bin/arm-linux-gcc
+CFLAGS = -Wall -O2 -I. -I./mycode -I./lvgl -I./ui \
+         -DLV_CONF_INCLUDE_SIMPLE \
+         -DLV_USE_FREETYPE=1 -I./freetype_tmp/include/freetype2 \
+         -DLV_USE_SDL=0 -DLV_USE_LINUX_FBDEV=1 -DLV_USE_EVDEV=1
+LDFLAGS = -lpthread -lm -L./freetype_tmp/lib -lfreetype
+
+SRCS = main_haidilao.c \
+       ./ui/ui.c ./ui/ui_helpers.c ./ui/ui_events.c \
+       ./ui/menu_data.c \
+       ./ui/screens/ui_OrderScreen.c \
+       ./ui/screens/ui_CheckoutScreen.c \
+       ./ui/screens/ui_PaymentScreen.c \
+       ./ui/components/ui_comp_hook.c \
+       ./ui/images/ui_img_beef.c ./ui/images/ui_img_noodle.c \
+       ./ui/images/ui_img_shrimp.c ./ui/images/ui_img_vegetables.c \
+       $(wildcard ./ui/images/real/ui_img_real_*.c) \
+       ./mycode/display_init.c ./mycode/font_setup.c ./mycode/net_client.c
+
+BUILD_DIR = ./build_arm
+OBJS = $(addprefix $(BUILD_DIR)/, $(SRCS:.c=.o))
+TARGET = $(BUILD_DIR)/haidilao_arm
+
+# LVGL源文件（排除 SDL，保留 fbdev/evdev/freetype）
+LVGL_SRCS = $(shell find ./lvgl/src -name "*.c" | grep -v rlottie | \
+            grep -vE "(lv_sdl_mousewheel|lv_sdl_keyboard|lv_sdl_mouse|lv_sdl_window|lv_draw_sdl)")
+LVGL_OBJS = $(addprefix $(BUILD_DIR)/, $(LVGL_SRCS:.c=.o))
+
+all: $(TARGET)
+
+$(TARGET): $(OBJS) $(LVGL_OBJS)
+	@mkdir -p $(BUILD_DIR)
+	$(CC) $(CFLAGS) -o $@ $^ $(LDFLAGS)
+
+$(BUILD_DIR)/%.o: %.c
+	@mkdir -p $(dir $@)
+	$(CC) $(CFLAGS) -c $< -o $@
+
+clean:
+	rm -rf $(BUILD_DIR)
+
+send:
+	scp $(TARGET) root@192.168.60.181:/root/haidi_arm
+	scp simkai.ttf root@192.168.60.181:/root/simkai.ttf
+	@echo "已发送到开发板 192.168.60.181:/root/"
+
+.PHONY: all clean send
